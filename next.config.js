@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/path2',
-  assetPrefix: '/path2',
+  basePath: basePath,
+  assetPrefix: basePath,
+  trailingSlash: true,
   // compiler: {
   //   removeConsole: false,
   // },
