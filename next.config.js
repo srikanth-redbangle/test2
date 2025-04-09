@@ -4,8 +4,8 @@ const nextConfig = {
   // compiler: {
   //   removeConsole: false,
   // },
-  basePath: '/app2',
-  assetPrefix: '/app2',
+  basePath: '/path2',
+  assetPrefix: '/path2',
   trailingSlash: true,
 }
 
