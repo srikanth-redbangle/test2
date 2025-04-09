@@ -4,6 +4,9 @@ const nextConfig = {
   // compiler: {
   //   removeConsole: false,
   // },
+  basePath: '/path2',
+  assetPrefix: '/path2',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
