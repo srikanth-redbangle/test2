@@ -24,7 +24,7 @@ import { SEO } from '@/components/shared/SEO'
 
 import { schemaHome } from '@/components/schema/homeSchema'
 import { getLatestArticle, getPlaySliderData } from '@/utils/graphql'
-import { formateBlogPostFunc } from '../utils/formate'
+import { formateBlogPostFunc } from '../../utils/formate'
 import Script from 'next/script'
 import { redbanglewayCreate, TNC } from '@/content/services'
 import { TextMarquee } from '@/components/shared/TextMarquee'

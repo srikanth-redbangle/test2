@@ -22,7 +22,7 @@ import { useState } from 'react'
 import { getPlayWorks } from '@/utils/graphql'
 import { formatPlayPosts } from '@/utils/formate'
 import Link from 'next/link'
-import { logoIcons } from '.'
+import { logoIcons } from './abc'
 import { ContactForm } from '@/components/shared/sections/ContactForm'
 
 const testimonialsDefault = [
