@@ -16,7 +16,7 @@ import { getPlayWorkDetails, getPlayWorks } from '@/utils/graphql'
 import { formatPlayPosts } from '@/utils/formate'
 import Script from 'next/script'
 import { endToEndVideoProdSchema } from '@/components/schema/end-to-end-vp-schema'
-import { logoIcons } from './abc'
+import { logoIcons } from '../..'
 
 const INIT_MODAL = {
   open: false,

@@ -19,7 +19,7 @@ import { useState } from 'react'
 import { getPlayWorks } from '@/utils/graphql'
 import { formatPlayPosts } from '@/utils/formate'
 import Link from 'next/link'
-import { logoIcons } from './abc'
+import { logoIcons } from '../..'
 
 const CrewsServices = () => {
   // const videoRef = useRef(null)
