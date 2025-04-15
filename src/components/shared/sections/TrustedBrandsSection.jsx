@@ -2,7 +2,7 @@ import React from 'react'
 import { LineHeading } from '../Heading'
 // import { gsap } from 'gsap'
 import { Marquee } from '../Marquee'
-import { logoIcons } from 'index'
+import { logoIcons } from '@/components/pages/abc'
 // import { Swiper, SwiperSlide } from 'swiper/react'
 // import { Autoplay } from 'swiper/modules'
 
